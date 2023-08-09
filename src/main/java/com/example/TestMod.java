@@ -1,5 +1,6 @@
 package com.example;
 
+import com.example.block.ModBlocks;
 import com.example.item.ModItemGroups;
 import com.example.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -13,7 +14,9 @@ public class TestMod implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        ModItems.registerModItems();
         ModItemGroups.registerItemGroups();
+        ModItems.registerModItems();
+
+        ModBlocks.registerModBlocks();
     }
 }

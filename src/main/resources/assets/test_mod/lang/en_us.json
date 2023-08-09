@@ -1,5 +1,7 @@
 {
   "item.test_mod.ruby": "Ruby",
   "item.test_mod.raw_ruby": "Raw Ruby",
+  "block.test_mod.ruby_block": "Ruby Block",
+  "block.test_mod.raw_ruby_block": "Raw Ruby Block",
   "itemgroup.ruby": "Ruby Group"
 }
