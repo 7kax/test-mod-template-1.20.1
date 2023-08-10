@@ -15,11 +15,16 @@ public class ModItemGroups {
             new Identifier(TestMod.MOD_ID, "ruby"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.ruby"))
                     .icon(() -> new ItemStack(ModItems.RUBY)).entries((DisplayContext, entries) -> {
+                        // Add items to the group
                         entries.add(ModItems.RUBY);
                         entries.add(ModItems.RAW_RUBY);
-
+                        // Add blocks to the group
                         entries.add(ModBlocks.RUBY_BLOCK);
                         entries.add(ModBlocks.RAW_RUBY_BLOCK);
+                        entries.add(ModBlocks.RUBY_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_RUBY_ORE);
+                        entries.add(ModBlocks.NETHER_RUBY_ORE);
+                        entries.add(ModBlocks.END_STONE_RUBY_ORE);
                     }).build());
 
     public static void registerItemGroups() {
